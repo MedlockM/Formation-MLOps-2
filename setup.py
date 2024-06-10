@@ -10,8 +10,8 @@ with open('requirements_test.txt', 'r') as requirements_file:
 setup(
     name='formation_indus_ds_avancee',
     version='1.2',
-    packages=['formation_indus_ds_avancee'],
-    package_dir={'formation_indus_ds_avancee': 'formation_indus_ds_avancee'},
+    packages=['formation_indus_ds_avancee', 'dags'],
+    package_dir={'formation_indus_ds_avancee': 'formation_indus_ds_avancee', 'dags': 'dags'},
     url='',
     license='',
     author='OCTO',
